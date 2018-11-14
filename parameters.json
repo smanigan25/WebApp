@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "value": "table4mswebapp"
+        },
+        "linuxFxVersion": {
+            "value": "TOMCAT|8.5-jre8"
+        },
+        "hostingPlanName": {
+            "value": "table4msappplan"
+        },
+        "hostingEnvironment": {
+            "value": ""
+        },
+        "location": {
+            "value": "Central US"
+        },
+        "sku": {
+            "value": "Basic"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "serverFarmResourceGroup": {
+            "value": "table4mswebapprg"
+        },
+        "skuCode": {
+            "value": "B1"
+        },
+        "subscriptionId": {
+            "value": "0ab9ad2e-f316-4da5-b243-e7f65da24755"
+        }
+    }
+}
